@@ -1,0 +1,31 @@
+nav {
+    background: rgb(79, 194, 140);
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.pepeDef {
+    size: 0pt;
+}
+
+@keyframes pepeSpin {
+    0% {transform: rotate(90);}
+    50% {transform: rotate(180);}
+    100% {transform: rotate(360);}
+}
+
+#pepeDef {
+    animation-name: pepeSpin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
